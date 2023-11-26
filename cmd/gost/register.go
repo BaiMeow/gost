@@ -45,6 +45,10 @@ import (
 	_ "github.com/go-gost/x/dialer/unix"
 	_ "github.com/go-gost/x/dialer/ws"
 
+	// Register extensions
+	_ "github.com/BaiMeow/gost/extension/handler/tuntunnel"
+	_ "github.com/BaiMeow/gost/extension/listener/tuntunnel"
+
 	// Register handlers
 	_ "github.com/go-gost/x/handler/auto"
 	_ "github.com/go-gost/x/handler/dns"
