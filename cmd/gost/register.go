@@ -46,7 +46,9 @@ import (
 	_ "github.com/go-gost/x/dialer/ws"
 
 	// Register extensions
+	_ "github.com/BaiMeow/gost/extension/dialer/smtcp"
 	_ "github.com/BaiMeow/gost/extension/handler/tuntunnel"
+	_ "github.com/BaiMeow/gost/extension/listener/smtcp"
 	_ "github.com/BaiMeow/gost/extension/listener/tuntunnel"
 
 	// Register handlers
