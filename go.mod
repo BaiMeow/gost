@@ -6,6 +6,8 @@ toolchain go1.22.2
 
 replace github.com/templexxx/cpu v0.0.7 => github.com/templexxx/cpu v0.0.10-0.20211111114238-98168dcec14a
 
+replace github.com/go-gost/x => github.com/BaiMeow/gost-x v0.0.0-20240503082335-2bb36e7fdca7
+
 require (
 	github.com/go-gost/core v0.0.0-20240424153155-5d6c2115fa15
 	github.com/go-gost/x v0.0.0-20240426125656-332a3a1cd09f
